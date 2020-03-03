@@ -538,3 +538,5 @@ C:\Users\matti\OneDrive\Skrivbord\QuizApp-master\QuizApp\obj\Debug\90\stamp\_Gen
 C:\Users\matti\OneDrive\Skrivbord\QuizApp-master\QuizApp\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\matti\OneDrive\Skrivbord\QuizApp-master\QuizApp\obj\Debug\90\res\layout\selected_topic.xml
 C:\Users\matti\OneDrive\Skrivbord\QuizApp-master\QuizApp\obj\Debug\90\stamp\SetupDependenciesForDesigner.stamp
+C:\Users\matti\OneDrive\Skrivbord\QuizApp-master\QuizApp\obj\Debug\90\res\drawable\roundbutton.xml
+C:\Users\matti\OneDrive\Skrivbord\QuizApp-master\QuizApp\obj\Debug\90\res\drawable\menuaction.xml

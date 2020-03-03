@@ -9,6 +9,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/AppTheme.DarkAppBar"
+        android:layout_height="?android:attr/actionBarSize"/>
+
     <TextView
         android:layout_marginTop="20dp"
         android:gravity="center"

@@ -9,18 +9,23 @@ namespace QuizApp
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = false)]
     public class MainActivity : AppCompatActivity
     {
+        Android.Support.V7.Widget.Toolbar toolbar;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
-        }
-        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
-        {
-            Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
-            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+            toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
+
+            //Setup
+            SetSupportActionBar(toolbar);
+            SupportActionBar.Title = "Topics";
+            Android.Support.V7.App.ActionBar actionBar = SupportActionBar;
+            actionBar.SetHomeAsUpIndicator(Resource.Drawable.menuaction);
+            actionBar.SetDisplayHomeAsUpEnabled(true);
         }
+        
+
     }
 }
